@@ -1,0 +1,81 @@
+nav {
+  height: 20vh;
+  width: 100%;
+}
+nav .search {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .search a {
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search a:hover {
+  color: red;
+}
+nav .search .a1 {
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+  font-size: 300%;
+  margin-left: 5%;
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search .a2 {
+  font-family: fantasy;
+  margin-top: 1%;
+  margin-right: 3%;
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search .a2:hover {
+  color: red;
+}
+nav .search .a2:hover .together {
+  color: red;
+}
+nav .foods {
+  height: 50%;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+}
+nav .foods a {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 4%;
+  text-decoration: none;
+  height: 50%;
+  color: black;
+}
+nav .foods .pasta:hover {
+  color: red;
+}
+nav .foods .taco:hover {
+  color: red;
+}
+nav .foods .pizza:hover {
+  color: red;
+}
+nav .foods .dessert:hover {
+  color: red;
+}
+nav .foods .breakfast:hover {
+  color: red;
+}
+nav .foods .lunch:hover {
+  color: red;
+}
+nav .foods .dinner:hover {
+  color: red;
+}
+nav .foods .page2:hover {
+  color: red;
+}
+nav .l {
+  font-weight: bold;
+}/*# sourceMappingURL=navbar.css.map */

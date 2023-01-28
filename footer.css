@@ -1,0 +1,68 @@
+footer {
+  height: 8vw;
+  width: 100%;
+  background-color: black;
+}
+footer .foot {
+  width: 100%;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+}
+footer .foot a {
+  margin-top: 1%;
+  color: white;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .foot p {
+  margin-top: 1%;
+  color: white;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .foot .about:hover {
+  color: red;
+}
+footer .foot .recipes:hover {
+  color: red;
+}
+footer .foot .faq:hover {
+  color: red;
+}
+footer .foot .contact:hover {
+  color: red;
+}
+footer .media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+footer .media a {
+  margin-top: 1%;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .media .fa-twitter:hover {
+  color: red;
+}
+footer .media .fa-youtube:hover {
+  color: red;
+}
+footer .media .fa-facebook:hover {
+  color: red;
+}
+footer .right {
+  width: 100%;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+footer .right p {
+  margin-top: 1%;
+  color: white;
+}
+footer .right .cpr:hover {
+  color: grey;
+}/*# sourceMappingURL=footer.css.map */
