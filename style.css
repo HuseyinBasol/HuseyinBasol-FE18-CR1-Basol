@@ -1,4 +1,6 @@
-
+@import "img.css"; 
+@import "navbar.css";
+@import "footer.css";
   
   img {
     border-radius: 8px;
@@ -10,11 +12,20 @@
   }
   
   .img-container {
+    font-family: fantasy;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    }
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 7vh;
+    width: 150vh;
+    height: 150vh;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    
+     
+} 
     
     
 

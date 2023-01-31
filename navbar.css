@@ -78,4 +78,17 @@ nav .foods .page2:hover {
 }
 nav .l {
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 962px) {
+  .pics {
+    grid-template-columns: repeat(2, 1fr);
+    width: 20vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pics {
+    grid-template-columns: repeat(1, 1fr);
+    width: 20vh;
+  }
 }/*# sourceMappingURL=navbar.css.map */
