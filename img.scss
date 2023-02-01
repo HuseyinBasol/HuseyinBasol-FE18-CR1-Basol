@@ -1,48 +1,20 @@
-
 /* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
-.img-div{
-    background-size: cover;
+.img-div {
+  position: relative;
+ 
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: black;
+  color: white;
+  
+}
+img {
     width: 100%;
     height: 100%;
-}    
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
-.img-div{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}  
+    object-fit: cover;
     
+}
